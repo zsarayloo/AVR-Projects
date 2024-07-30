@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:3E4E7654
+NODE:I LEVEL:0 LINE:2 "C:\cvavr2\inc\mega8.h"
+NODE:V LEVEL:0 LINE:4 "sensd -> R5"
+NODE:F LEVEL:0 LINE:6 "forward(void)"
+NODE:F LEVEL:0 LINE:11 "left(void)"
+NODE:F LEVEL:0 LINE:16 "right(void)"
+NODE:F LEVEL:0 LINE:21 "main(void)"

@@ -1,0 +1,26 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+adc1                                                              0160h        4
+adc2                                                              0164h        4
+adc3                                                              0168h        4
+adc4                                                              016Ch        4
+adc0                                                              0170h        4
+str                                                               0174h       15
+str1                                                              0183h       15
+_base_y                                                           0192h        4
+_seed                                                             0196h        4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+i                                                                 R5           1
+k                                                                 R4           1
+line                                                              R7           1
+_lcd_x                                                            R6           1
+_lcd_y                                                            R9           1
+_lcd_maxx                                                         R8           1
