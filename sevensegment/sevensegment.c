@@ -1,0 +1,23 @@
+#include <mega32.h>
+#include <delay.h>
+char num[16]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,
+0x7D,0x07,0x7F,0x6F,0x77,0x7C,0x39,0x5E,0x79,0x71};
+unsigned char i;
+unsigned char j;
+void main (void)
+{
+DDRD=0xff;
+PORTD=0x00;
+for(j=0;j<10;j++)
+{
+for (i=0;i<10;i=i+2)
+{
+for(k=0;k<50;k++)
+{PORTD=num[j];
+delay_ms(540);
+PORTD=num[i] |0x80;
+delay_ms(500);
+}
+}
+}
+}

@@ -1,0 +1,13 @@
+#include<mega32.h>
+#include<delay.h>
+main()
+{
+while(1)
+{
+DDRD.0=1;
+PORTD.0=1;
+delay_ms(200);
+PORTD.0=0;
+delay_ms(200);
+}
+}

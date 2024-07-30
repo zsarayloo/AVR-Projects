@@ -1,0 +1,98 @@
+
+ROM used: 436 (5%)
+          436 (5%) including unused fragments
+
+          0 Average locations per line
+          3 Average locations per statement
+
+RAM used: 9 (2%) at main() level
+          19 (5%) worst case
+
+Stack used: 3 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   29    13  10  kp.c
+   16     0   0  kp.h
+  270     0   0  ..\..\..\..\Program Files\PICC\devices\16F876A.h
+   37     0   0  ..\..\..\..\Program Files\PICC\drivers\stdio.h
+  417     0   0  ..\..\..\..\Program Files\PICC\drivers\string.h
+   28     0   0  ..\..\..\..\Program Files\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\..\Program Files\PICC\drivers\ctype.h
+   58    26  20  LCD.h
+  176    94  71  KEYPAD.h
+----- -----
+ 1059   133 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   5   1             @delay_ms1
+0     34   8   1   143  1.3  com
+0     34   8   1   143  1.3  read
+0     33   8   8   225  3.9  cls
+0    237  54   0   647  1.9  key
+ Inline        1   290  2.6  column_1
+ Inline        0    27  1.0  number_1
+ Inline        0    27  1.0  number_2
+ Inline        0    27  1.0  number_3
+ Inline        1   290  2.6  column_2
+ Inline        0    27  1.0  number_4
+ Inline        0    27  1.0  number_5
+ Inline        0    27  1.0  number_6
+ Inline        1   290  2.6  column_3
+ Inline        0    27  1.0  number_7
+ Inline        0    27  1.0  number_8
+ Inline        0    27  1.0  number_9
+ Inline        1   290  2.6  column_4
+ Inline        0    27  1.0  number_mu
+ Inline        0    27  1.0  number_0
+ Inline        0    61  1.4  number_P
+0     74  17   0   270  2.8  MAIN
+
+Program metrics:
+    Functions               21
+    Statements              133
+    Comments                165
+    Volume (V)              5325
+    Difficilty (D)          38.8
+    Effort to implement (E) 206603
+    Time to implement (T)   3 hours, 11 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   13
+    Maintainability (MI)    66
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   432  1612  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
+THE FOLLOWING IS TEMPORARY FOR DIAGNOSTIC USE ONLY:
+
+    n1    n2    N1    N2   v(G)
+     0     1     0     0     0    @delay_ms1
+     3    19    16    16     0    com
+     3    19    16    16     0    read
+     9    23    25    20     1    cls
+     4    55    58    52     0    key
+     6    24    38    21     3    column_1
+     4     6     5     3     0    number_1
+     4     6     5     3     0    number_2
+     4     6     5     3     0    number_3
+     6    24    38    21     3    column_2
+     4     6     5     3     0    number_4
+     4     6     5     3     0    number_5
+     4     6     5     3     0    number_6
+     6    24    38    21     3    column_3
+     4     6     5     3     0    number_7
+     4     6     5     3     0    number_8
+     4     6     5     3     0    number_9
+     6    24    38    21     3    column_4
+     4     6     5     3     0    number_mu
+     4     6     5     3     0    number_0
+     4    10     9     7     0    number_P
+     6    26    30    24     0    MAIN

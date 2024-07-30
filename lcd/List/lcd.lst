@@ -1,0 +1,8 @@
+
+AVRASM ver. 2.1.30  D:\avr(codevision)\lcd\List\lcd.asm Sun Jan 16 18:16:48 2011
+
+D:\avr(codevision)\lcd\List\lcd.asm(1051): warning: Register r4 already defined by the .DEF directive
+D:\avr(codevision)\lcd\List\lcd.asm(1052): warning: Register r7 already defined by the .DEF directive
+D:\avr(codevision)\lcd\List\lcd.asm(1053): warning: Register r6 already defined by the .DEF directive
+D:\avr(codevision)\lcd\List\lcd.asm(1054): warning: Register r9 already defined by the .DEF directive
+D:\avr(codevision)\lcd\List\lcd.asm(1201): error: Invalid directive: '.equ_lcd_port'
